@@ -3,17 +3,23 @@
 ## Описание
 Учебный командный проект **YaMDb** собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка». К отзыву можно оставить комментарий.
 
+## Стек технологий:
+* Python 3.9
+* Django 2.2.16
+* SimpleJWT
+* Django filter 2.4
+* SQLite3
 
 ## Как развернуть проект на локальной машине:
 
 
 * Склонировать репозиторий:
 ```
-git clone https://github.com/fog-contributor/api_yamdb.git
+git clone https://github.com/Stas767/api_yamdb-1.git
 ```
 
 ```
-cd api_yamdb
+cd api_yamdb-1
 ```
 
 * Cоздать виртуальное окружение:
@@ -139,18 +145,7 @@ python3 manage.py add_csv
 }
 ```
 
-## Стек технологий:
-* Python 3.9
-* Django 2.2.16
-* SimpleJWT
-* Django filter 2.4
-* SQLite3
-
 ## Авторы:
 * Аркадий Крылов https://github.com/fog-contributor
 * Станислав Балджи https://github.com/Stas767
 * Игорь Жук https://github.com/ig0r-zhuk
-
-
-
-
